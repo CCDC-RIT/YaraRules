@@ -28,12 +28,12 @@ rule Realm{
         $a16 = "cmd=%s, value=%s"
         $a17 = "Registered ID:"
         $a18 = "IP Address:%s"
-        $b1 = "stepWithDwarf"
-        $b2 = "TasktomeTomeimixSlimMasknote"
-        $b3 = "/home/runner/work/_temp/realm_build/x86_64-unknown-linux-musl/release/build/openssl-sys-b82835967498cb0e/out/openssl-build/install/lib/ossl-modules"
-        $b4 = "/home/runner/work/_temp/realm_build/x86_64-unknown-linux-musl/release/build/openssl-sys-b82835967498cb0e/out/openssl-build/install/lib/engines-3"
-        $b5 = "index.crates.io-6f17d22bba15001f"
-        $b6 = "The original imix binary will still exist so you may wish to delete"
+        $a19 = "stepWithDwarf"
+        $b1 = "TasktomeTomeimixSlimMasknote"
+        $b2 = "/home/runner/work/_temp/realm_build/x86_64-unknown-linux-musl/release/build/openssl-sys-b82835967498cb0e/out/openssl-build/install/lib/ossl-modules"
+        $b3 = "/home/runner/work/_temp/realm_build/x86_64-unknown-linux-musl/release/build/openssl-sys-b82835967498cb0e/out/openssl-build/install/lib/engines-3"
+        $b4 = "index.crates.io-6f17d22bba15001f"
+        $b5 = "The original imix binary will still exist so you may wish to delete"
     condition:
         ($elf_magic at 0 and 4 of ($a*)) or any of ($b*)
 }
