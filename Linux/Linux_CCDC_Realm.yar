@@ -27,7 +27,6 @@ rule Realm{
         $a13 = "Registered ID:"
         $a14 = "IP Address:%s"
         $a15 = "stepWithDwarf"
-        $a16 = "index.crates.io-6f17d22bba15001f"
         /* Category B strings: These are longer, unique strings found in Realm implants  */
         $b1 = "TasktomeTomeimixSlimMasknote"
         $b2 = "/home/runner/work/_temp/realm_build/x86_64-unknown-linux-musl/release/build/openssl-sys-b82835967498cb0e/out/openssl-build/install/lib/ossl-modules"
